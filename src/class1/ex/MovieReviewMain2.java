@@ -2,7 +2,7 @@ package class1.ex;
 
 public class MovieReviewMain2 {
     public static void main(String[] args) {
-        MovieReview [] reviews = new MovieReview[2];
+        MovieReview[] reviews = new MovieReview[2];
 
         MovieReview inception = new MovieReview();
         inception.title = "인셉션";
@@ -15,7 +15,7 @@ public class MovieReviewMain2 {
         reviews[1] = aboutTime;
 
         for (MovieReview review : reviews) {
-            System.out.println("영화 제목: " + review.title + ", 리뷰: "+ review.review);
+            System.out.println("영화 제목: " + review.title + ", 리뷰: " + review.review);
         }
     }
 }

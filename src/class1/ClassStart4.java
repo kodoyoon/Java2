@@ -21,3 +21,4 @@ public class ClassStart4 {
         System.out.println("이름:" + students[1].name + " 나이:" + students[1].age + " 성적:" + students[1].grade);
     }
 }
+// 자바에서 대입은 항상 변수에 들어 있는 값을 복사해서 전달한다.

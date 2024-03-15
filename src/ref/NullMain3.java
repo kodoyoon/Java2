@@ -7,6 +7,6 @@ public class NullMain3 {
         System.out.println("bigData.data = " + bIgData.data);
 
         //NullPointerException
-        System.out.println("bigData.data.value = " + bIgData.data.value); //null.data
+        System.out.println("bigData.data.value = " + bIgData.data.value); //null.value
     }
 }

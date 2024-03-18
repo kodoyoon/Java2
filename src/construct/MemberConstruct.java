@@ -7,9 +7,7 @@ public class MemberConstruct {
 
     //추가
     MemberConstruct(String name, int age) {
-        this.name = name;
-        this.age = age;
-        this.grade = 50;
+      this(name, age, 50); //this() 는 생성저ㅏ 코드의 첫줄에만 작성할 수 있다.
     }
 
     MemberConstruct(String name, int age, int grade) {

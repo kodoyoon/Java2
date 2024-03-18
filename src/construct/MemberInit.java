@@ -1,6 +1,6 @@
 package construct;
 
-public class MemberInit {
+public class MemberInit { //4, 5, 6 은 멤버변수
     String name; //얘네 값을 넣어주고 싶은거임
     int age;
     int grade;

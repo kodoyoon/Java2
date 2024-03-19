@@ -2,7 +2,7 @@ package access;
 
 public class Speaker {
 
-    private int volume;
+    int volume; //default(기본 값)
 
     Speaker(int volume) {
         this.volume = volume;

@@ -1,7 +1,7 @@
 package access.ex;
 
 public class ShoppingCart {
-    private Item [] items = new Item[10];
+    private Item [] items = new Item[10]; //아이템을 담을 수 있는 배열
     private int itemCount;
 
     public void addItem(Item item) {

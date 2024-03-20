@@ -14,7 +14,7 @@ public class JavaMemoryMain2 {
         System.out.println("method1 end");
     }
 
-    static void method2(Data data2) {
+    static void method2(Data data2) { //참조값을 받아옴
         System.out.println("method start");
         System.out.println("data.value = " + data2.getValue());
         System.out.println("method2 end");

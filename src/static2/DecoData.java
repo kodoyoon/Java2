@@ -25,6 +25,11 @@ public class DecoData {
         staticMethod();
     }
 
+    public static void staticCall(DecoData data) {
+        data.instanceValue++;;
+        data.instanceMethod();
+    }
+
     private void instanceMethod() {
         System.out.println("instanceValue = " + instanceValue);
     }
